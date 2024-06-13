@@ -9,8 +9,8 @@ The program performs the following tasks from the file:
 2. Finds the minimum number in the file.
 3. Computes the median.
 4. Computes the arithmetic mean.
-5. * Finds the longest increasing sequence of numbers (optional).
-6. * Finds the longest decreasing sequence of numbers (optional).
+5. Finds the longest increasing sequence of numbers.
+6. Finds the longest decreasing sequence of numbers.
 
 The program should execute all these tasks in no more than 40 seconds.
 
