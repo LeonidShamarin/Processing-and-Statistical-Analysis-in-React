@@ -1,8 +1,28 @@
-# React + Vite
+# Statistical Analysis Program
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a program for processing and statistical analysis of a large set of integers from a .txt file.
 
-Currently, two official plugins are available:
+## Program Requirements
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The program performs the following tasks from the file:
+1. Finds the maximum number in the file.
+2. Finds the minimum number in the file.
+3. Computes the median.
+4. Computes the arithmetic mean.
+5. * Finds the longest increasing sequence of numbers (optional).
+6. * Finds the longest decreasing sequence of numbers (optional).
+
+The program should execute all these tasks in no more than 40 seconds.
+
+## Additional Information
+
+* **Median:** If the set of numbers has an even number of elements, the median is calculated as the average of the two middle values.
+* **Number Sequence:** This refers to the order of numbers in the file, occurring one after another.
+
+## Using the Program
+
+To use the program, upload a .txt file with the data and run the program to obtain the results.
+
+## Links
+
+Deployed Program: [Link to the Program](https://processing-and-statistical-analysis-in-react.vercel.app/)
